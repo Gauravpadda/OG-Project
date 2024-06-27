@@ -3,17 +3,20 @@ import { AnimatedDiv } from "../components/AnimatedDiv";
 import { AnimatedoneD } from "../components/animate1d";
 import { ScrollEffect } from "../components/scrolleffect";
 import { Footer } from "../components/footer";
+import ParticleRing from "../components/particleRing";
 
 export function Landing() {
   return (
     <div className="scroll-smooth bg-black h-dvh w-fit">
       
         <div className="bg-black h-dvh flex justify-center items-center">
+          
           <div className="bg-gradient-to-r from-blue-400 to-purple-300 bg-clip-text text-transparent">
            <p className="font-bold text-9xl">OG PROJECT</p>
           </div>
+          
         </div>
-      
+        
        
         <div className="bg-black h-screen grid grid-cols-2"><ScrollEffect> 
           <div className="ml-4 mt-[200px] flex justify-center items-center bg-gradient-to-r from-indigo-400 via-purple-800 to-pink-300 bg-clip-text text-transparent">
@@ -35,8 +38,9 @@ export function Landing() {
       
       
         <div className="bg-black h-screen grid grid-cols-2"><ScrollEffect>
-          <div className="h-[580px] w-[730px] mt-[80px] mr-auto">
-            <AnimatedoneD side={"r"} />
+          <div className="h-[580px] w-[730px] mt-[80px] mr-auto ">
+            <ParticleRing/>
+            
           </div></ScrollEffect>
           <ScrollEffect>
           <div className="ml-4 mt-[200px] flex justify-center items-center bg-gradient-to-r from-indigo-400 via-purple-800 to-pink-300 bg-clip-text text-transparent">
