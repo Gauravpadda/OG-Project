@@ -1,58 +1,81 @@
-# OG PROJECT
+# OG-Project
 
-## Steps to set up the project locally
+## Description
 
-1. **Clone the repository**
-  ```bash
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+To clone and run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   
+   Open your terminal and run the following command to clone the repository:
+
+   ```bash
    git clone https://github.com/gauravpadda/OG-Project.git
-   cd frontend/frontend
    ```
 
-2. **Install dependencies**
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd OG_Project/frontend/frontend
+   ```
+
+3. **Install dependencies:**
+
+   Make sure you have [Node.js](https://nodejs.org/) installed. Then run the following command to install the required dependencies:
+
    ```bash
    npm install
    ```
 
-3. **Start the development server**
-   ```bash
-   npm run dev
-   ```
+## Usage
 
-4. **Push your changes to the repository**
-   ```bash
-   git push origin main
-   ```
+To start the project, run the following command:
 
-5. **Refresh your local code with the latest changes from GitHub**
-   ```bash
-   git pull origin main
-   ```
+```bash
+npm run dev
+```
 
-The app should now be running on `http://localhost:3000`.
+This will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Steps to contribute if you are not a collaborator
+## Contributing
+
+If you want to contribute to this project, please follow these steps:
 
 1. **Fork the repository**
-2. **Create a new branch**
+
+2. **Create a new branch:**
+
    ```bash
-   git checkout -b feature/your-feature-name
+   git checkout -b feature/YourFeatureName
    ```
-3. **Commit your changes**
+
+3. **Make your changes and commit them:**
+
    ```bash
    git commit -m 'Add some feature'
    ```
-4. **Push to the branch**
+
+4. **Push to the branch:**
+
    ```bash
-   git push origin feature/your-feature-name
+   git push origin feature/YourFeatureName
    ```
-5. **Open a pull request**
 
-## Contact
+5. **Submit a pull request**
 
-If you have any questions or want to get in touch, you can reach me at:
+## License
 
-- **Email:** gauravpadda98@gmail.com
-- **GitHub:** [gauravpadda](https://github.com/gauravpadda)
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-You can copy this content and replace the existing `README.md` file in your repository with it.
+---
+
+Feel free to customize this README file to better fit your project's needs!
