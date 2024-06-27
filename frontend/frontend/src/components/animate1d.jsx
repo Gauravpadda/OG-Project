@@ -26,7 +26,7 @@ export function AnimatedoneD({side}) {
         x.set(xPercent);
         y.set(yPercent);
     }
-
+    const roundedClass= side=="l" ? "rounded-l-2xl":"rounded-r-2xl";
     return (
         <motion.div
             onMouseMove={movementHandler}
@@ -40,7 +40,7 @@ export function AnimatedoneD({side}) {
                 rotateY,
                 transformStyle: "preserve-3d",
             }}
-            className={` h-full w-full rounded-${side}-2xl bg-gradient-to-br pt-4 pl-4 pb-4 from-indigo-200 to-violet-200 relative `}
+            className={` h-full w-full ${roundedClass} bg-gradient-to-br pt-4 pl-4 pb-4 from-indigo-200 to-violet-200 relative `}
         >
         </motion.div>
     );

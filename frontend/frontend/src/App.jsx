@@ -4,7 +4,7 @@ import { Landing } from "./pages/landing";
 
 function App() {
   return (<>
-    <div><Landing></Landing></div>
+    <div className="bg-black"><Landing></Landing></div>
 
 
 

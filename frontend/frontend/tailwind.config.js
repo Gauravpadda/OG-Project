@@ -6,15 +6,7 @@ export default {
   ],
   theme: {
     extend: {
-      keyframes:{
-        scrollanimation:{
-            '0%': {scale: 0.8 ,opacity:0},
-            '100%' :{scale:1,opacity:0}
-        }
-      },
-      animation:{
-        scroll:"scrollanimation 2s ease-in-out forward",
-      }
+      
     },
   },
   plugins: [],
