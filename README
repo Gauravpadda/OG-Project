@@ -1,12 +1,10 @@
-
-```markdown
 # OG PROJECT
 
 ## Steps to set up the project locally
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Gauravpadda/OG-Project.git
+  ```bash
+   git clone https://github.com/gauravpadda/OG-Project.git
    cd frontend/frontend
    ```
 
