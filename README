@@ -1,6 +1,8 @@
+
+```markdown
 # OG PROJECT
 
-Follow these steps to set up the project locally.
+## Steps to set up the project locally
 
 1. **Clone the repository**
    ```bash
@@ -13,49 +15,46 @@ Follow these steps to set up the project locally.
    npm install
    ```
 
-
-
-4. **Start the development server**
+3. **Start the development server**
    ```bash
    npm run dev
    ```
-5.** to push the element in the code**
-```bash
-  git push origin main
-```
 
-6** to refresh the code with the github**
-```bash
-  git pull origin main
-```
+4. **Push your changes to the repository**
+   ```bash
+   git push origin main
+   ```
 
+5. **Refresh your local code with the latest changes from GitHub**
+   ```bash
+   git pull origin main
+   ```
 
+The app should now be running on `http://localhost:3000`.
 
+## Steps to contribute if you are not a collaborator
 
-   The app should now be running on `http://localhost:3000`.
-
-
-### Steps to contribute if you are not collaborator
-
-1. Fork the repository
-2. Create a new branch
+1. **Fork the repository**
+2. **Create a new branch**
    ```bash
    git checkout -b feature/your-feature-name
    ```
-3. Commit your changes
+3. **Commit your changes**
    ```bash
    git commit -m 'Add some feature'
    ```
-4. Push to the branch
+4. **Push to the branch**
    ```bash
    git push origin feature/your-feature-name
    ```
-5. Open a pull request
-
+5. **Open a pull request**
 
 ## Contact
 
 If you have any questions or want to get in touch, you can reach me at:
 
-- Email: gauravpadda98@gmail.com
-- GitHub: [gauravpadda](https://github.com/gauravpadda)
+- **Email:** gauravpadda98@gmail.com
+- **GitHub:** [gauravpadda](https://github.com/gauravpadda)
+```
+
+You can copy this content and replace the existing `README.md` file in your repository with it.
