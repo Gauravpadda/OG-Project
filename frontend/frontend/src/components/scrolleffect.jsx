@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 
 export function ScrollEffect({ children }) {
   const divRef = useRef();
-  const inView = useInView(divRef, { once: false });
+  const inView = useInView(divRef, {margin: "-100px 0px 0px 0px",once:true });
   const manageScroll = useAnimation();
 
   useEffect(() => {
@@ -23,6 +23,8 @@ export function ScrollEffect({ children }) {
       }}
       initial="start"
       animate={manageScroll}
+     
+      
       transition={{ delay: 0.1, duration: 1 }}
       ref={divRef}
     >
