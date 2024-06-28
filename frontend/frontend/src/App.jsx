@@ -1,6 +1,8 @@
 import {BrowserRouter, Route, Routes} from "react-router-dom"
 
+import Home from "./pages/home.jsx";
 import { Landing } from "./pages/landing";
+
 import Home from "./pages/home";
 
 function App() {
@@ -13,9 +15,6 @@ function App() {
   
   </BrowserRouter>
     
-
-
-
   
   </>
 
